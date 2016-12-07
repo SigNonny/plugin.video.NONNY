@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.NONNY" version="1.0.0" name="Project" provider-name="NONNY">
+		<requires>
+				<import addon="xbmc.pyton" version="2.24.0" />
+				<import addon="script.module.lamlib" version="1.0.0" />
+				<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+				<provide>video</provide>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Computer Organization and Assembly Language Project</summary>
+			<description lang="en">By NONNY</description>
+			<disclaimer lang="en">THIS IS SPARTA!!!</disclaimer>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+			<source>https://github.com/lambda81/plugin.video.NONNY</source>
+			<website></website>
+			<platform>all</platform>
+			<language></language>
+			<forum></forum>
+			<email></email>
+		</extension>
+</addon>
+
